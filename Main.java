@@ -10,7 +10,8 @@ public class Main {
         int n2 = sc.nextInt();
         System.out.println("Input the third Number");
         int n3 = sc.nextInt();
-
-        System.out.println(n1 + "+" + n2 +"+"+n3+ "=" +(n1+n2+n3));
+        System.out.println(n1 + "+" + n2 +"+"+n3+ "="+(n1+n2+n3));
+        System.out.println(n1+ "-" +n2 + "+" +n3 +"="+(n1-n2+n3));
+        System.out.println(n1+ "/" +n2 + "+" +n3 +"="+(n1/n2+n3));
     }
 }
